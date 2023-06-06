@@ -32,5 +32,5 @@ entity Suppliers{
     products                : Composition of many Products on products.supplier = $self;
 }
 
-entity SomeView ( p_ID: Integer )
-    as SELECT * from Products where ID=:p_ID;
+//entity SomeView ( p_ID: Integer )
+//    as SELECT * from Products where ID=:p_ID;
